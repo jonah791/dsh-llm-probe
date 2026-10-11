@@ -1,0 +1,4 @@
+- insert:
+    - id: agent-llm-probe
+      name: dsh-llm-probe
+      config: {}
