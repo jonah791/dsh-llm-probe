@@ -132,6 +132,12 @@ cd self-plugins/dsh-llm-probe && npm test
 - **三态互不掩盖**：`has-resolution` / `no-resolution` / `apparatus-down` —— 「测不出」与「装置坏了」是两件事。
 - **端点不可达即响亮失败**：`ok:false` + 原因，绝不返回空结果（空结果会被读成「测了但没有效果」）。
 
+## 相关文档
+
+- [`docs/semantic.md`](docs/semantic.md) —— **权威契约**（定位/反定位 · 验收表）
+- 中心仓：[alice-digital-life](https://github.com/jonah791/alice-digital-life)（本插件归 **认知层**）
+- 相关技能：`llm-measurement-instrument`（把 LLM 当测量装置时的偏差操纵与判据校准）
+
 ## License
 
 MIT © jonah791
